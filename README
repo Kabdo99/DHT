@@ -1,8 +1,7 @@
 # Distributed Hash Table (DHT) Implementation
 
 ## Overview
-This project implements a simplified Distributed Hash Table (DHT) using MPI (Message Passing Interface) in Python. 
-The DHT provides a lookup service similar to a traditional hash table, storing key-value pairs across multiple nodes in a distributed system.
+This project implements a simplified Distributed Hash Table (DHT) using MPI (Message Passing Interface) in Python. The DHT provides a lookup service similar to a traditional hash table, storing key-value pairs across multiple nodes in a distributed system.
 
 ## Features
 - Distributed storage of key-value pairs
@@ -26,7 +25,7 @@ The DHT provides a lookup service similar to a traditional hash table, storing k
 To run the DHT program:
 Where `<numProcesses>` is the total number of processes (8 for testing purposes).
 
-- File Structure
+## File Structure
 - `dht.py`: Main implementation of the DHT
 - `dht_globals.py`: Global constants and variables
 - `command.py`: Implementation of the command node that runs the dht
