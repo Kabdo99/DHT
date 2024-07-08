@@ -1,4 +1,4 @@
-Distributed Hash Table (DHT) Implementation
+# Distributed Hash Table (DHT) Implementation
 
 ## Overview
 This project implements a simplified Distributed Hash Table (DHT) using MPI (Message Passing Interface) in Python. 
